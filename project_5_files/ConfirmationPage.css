@@ -14,7 +14,7 @@ body {
 .head-bar {
 	height: 45px;
 	width: 300px;
-	background-color: white;
+	background-color: #e4d3f9;
 }
 
 .bottom-bar {
@@ -56,16 +56,32 @@ h1 {
 	background-color: #71e192;
 	text-align: relative;
 	margin-left: 50px;
-	margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 55px;
 }
 
-.dashboard-text {
+.thank-you-text {
 	text-align: center;
-	color: white;
+	color: black;
 	font-size: 30;
 	margin-top: 20px;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
+}
+.button-text {
+	text-align: center;
+	color: white;
+	font-size: 25;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
 
+.info-text {
+	text-align: left;
+	color: black;
+	font-size: 15;
+    margin-top: 5px;
+    margin-left: 1em;
+	margin-bottom: 5px;
 }
 
 .menu-icons {

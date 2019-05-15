@@ -1,0 +1,104 @@
+/* Global classes */
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+.head-bar {
+	margin-left:1px;
+	margin-right:1px;
+	color: white;
+	width: 298px;
+    height:69px;
+    background:background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+}
+
+.head-bar h1 p{
+	text-align: center;
+	padding: 15px;
+
+}
+
+#back-button {
+	padding: 15px;
+	float: left;
+}
+
+#filter {
+	padding: 15px;
+	float: right;
+}
+.tab {
+	position: relative;
+	font-weight: bold;
+	border-style: solid;
+  	border-width: 1px;
+	margin-left:1px;
+	margin-right:1px;
+	width: 296px;
+    height:69px;
+}
+#time{
+	font-size: 10px;
+	float: right;
+	margin-right: 2px;
+}
+#name {
+	font-size: 30px;
+	margin-top: 10px;
+}
+#comp {
+	float: right;
+	margin-top: -40px;
+	margin-right: 2px;
+}
+
+.ground-bar{
+	position: relative;
+  	bottom: -65px;
+	margin-left:1px;
+	margin-right:1px;
+	width: 298px;
+    height:40px;
+    background:#D8D8D8
+}
+
+#menu {
+	padding: 15px;
+	font-size: 2em;
+	margin-top: -20px;
+	text-indent: 10px;
+}
+
+#message {
+	font-size: 2em;
+	margin-top: 5px;
+	text-indent: 60px;
+}
+
+#user {
+	text-indent: 70px;
+	font-size: 2em;
+}
+
+}
+.albums-album-wrapper {
+}
+
+.albums-album-art {
+}
+
+.albums-album-name {
+}
+
+.albums-artist-name {
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+</body>
+</html>
+<html>
+<header>
+   <title>Album Select</title>
+   <link rel="stylesheet" type="text/css" href="study_list.css"/>
+   <script src="study-list.js"></script>
+</header>
+
+<body>
+   <div id="screen">
+      <div class="head-bar">
+         <h1> <i id="back-button" class="fa fa-arrow-left"></i> 
+             <i id="filter" class="fa fa-filter"></i>
+            <p>Studies</p>
+           
+         </h1>
+      </div>
+      <div id="study-list">
+         <div class="tab">
+            <p id="time">1/2/2019 ~ 1/30/2019</p>
+            <p id="name">Study A</p>
+            <p id="comp">15$</p>
+         </div>
+         <div class="tab">
+            <p id="time">2/2/2019 ~ 2/30/2019</p>
+            <p id="name">Study B</p>
+            <p id="comp">16$</p>
+         </div>
+         <div class="tab">
+            <p id="time">3/2/2019 ~ 3/30/2019</p>
+            <p id="name">Study C</p>
+            <p id="comp">20$</p>
+         </div>
+         <div class="tab">
+            <p id="time">4/2/2019 ~ 4/30/2019</p>
+            <p id="name">Study D</p>
+            <p id="comp">12$</p>
+         </div>
+         <div class="tab">
+            <p id="time">1/5/2019 ~ 1/30/2019</p>
+            <p id="name">Study E</p>
+            <p id="comp">15$</p>
+         </div>
+      </div>
+      <div class="ground-bar">
+<!--         <img src="baseline-today-24px.svg">
+        <img src="baseline-home-24px.svg" >
+        <img src="baseline-chat-24px.svg">
+        <img src="round-person-24px.svg"> -->
+        <i id="menu" class="fa fa-bars"></i>
+        <i id="message" class="fa fa-envelope-o"></i>
+        <i id="user" class="fa fa-user"></i>
+      </div>
+   </div>
+</body>
+
+<!-- Note: We put this at the end of the page so that the rest of the HTML loads first -->
+<script>
+   buildAlbumList();  // defined in albums.js
+</script>
+</html>
+<!-- 
+* bg iphone img is 363x762px
+* iphone 'screen' is apprx 300x530 -->

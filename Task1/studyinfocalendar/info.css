@@ -121,7 +121,7 @@ Background is black. Text color is white with black shadow and is centered.	*/
 #fullDiv {
   position: absolute;
 	width:290px;
-	height:400px;
+	height:180px;
   margin: 0;
   padding: 0;
   left: 37;

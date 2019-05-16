@@ -1,0 +1,161 @@
+/*
+	Global classes
+					*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+/* Head-bar spans entire width of screen (300px) and 45px height as instructed.
+Background is black. Text color is white with black shadow and is centered.	*/
+.head-bar {
+	width: 300px;
+	height: 45px;
+	background-color: black;
+	text-align: center;
+	font-size:15px;
+	color : white;
+	margin: 15 0 0 0;
+	padding-top: 0px;
+}
+/* Back button is position on top left corner of head-bar. */
+.back-button {
+	background-color: black;
+	border-color: white;
+	border-radius: 4px;
+	text-align: left;
+	color: white;
+	font-size: 20px;
+	margin: -55px 250px 0 0;
+
+}
+
+/*
+	Albums
+			*/
+
+/* albums-album-wrapper contains the album cover image and the album info (name, artist, year).*/
+.study-info-wrapper {
+	display: flex;
+	clear: both;
+	text-align: left;
+	margin: 20px;
+}
+/* Album cover image only spans left half of screen.*/
+.study-info {
+	text-align: left;
+	font-size: 17px;
+}
+
+.time-info {
+	text-align: left;
+	font-size: 17px;
+}
+
+.calendar-info-wrapper {
+	clear: both;
+	text-align: center;
+	margin: 20px;
+}
+/* Album cover image only spans left half of screen.*/
+.calendar-info {
+	text-align: center;
+	font-size: 17px;
+}
+
+.menu-bar {
+	text-align: center;
+	margin-top:140px;
+}
+
+.menu-icon {
+	text-align: center;
+	margin: 15;
+	width:40px;
+	height:30px;
+}
+
+.study-select-time {
+	width:300px;
+	text-align: center;
+	font-size: 17px;
+	padding-top: 100;
+
+}
+
+.select-button {
+	font-size:17px;
+	font-weight: bold;
+	color: white;
+	background-color: black;
+	font-family: Avenir, sans-serif;
+	border-radius: 8px;
+	padding: 5 10 5 10;
+	margin-top: -70;
+	margin-bottom: 20;
+}
+.confirm-button {
+	font-size:17px;
+	font-weight: bold;
+	color: white;
+	background-color: black;
+	font-family: Avenir, sans-serif;
+	border-radius: 8px;
+	padding: 5 5 5 5;
+	margin-top: 50;
+	margin-bottom: 10;
+}
+
+#calendar{
+	text-align: center;
+}
+
+#fullDiv {
+  position: absolute;
+	width:290px;
+	height:400px;
+  margin: 0;
+  padding: 0;
+  left: 37;
+  top: 220;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+  display: block;
+  width: 14.2857%;
+  text-align: center;
+  list-style-type: none;
+}
+
+li:nth-child(n+1):nth-child(-n+7) {
+  font-weight: 900;
+  color: rgba(0,191,255);
+}
+
+li:nth-child(n+39), li:nth-child(n+8):nth-child(-n+16) {
+  font-weight: 900;
+  color: rgba(0,0,0,.3);
+}
+
+li:hover:nth-child(n+8):nth-child(-n+38), li:nth-child(17){
+  border-radius: 5px;
+  background-color: rgba(0,191,255);
+  color: #ecf0f1;
+}

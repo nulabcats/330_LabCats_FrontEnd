@@ -1,0 +1,43 @@
+<html>
+<header>
+   <title>Album Select</title>
+   <link rel="stylesheet" type="text/css" href="ConfirmationPage.css"/>
+   <script src="albums.js"></script>
+</header>
+
+<body>
+   <div id="screen">
+      <div class="head-bar">
+         <h1>LabCats</h1>
+      </div>
+
+      <div>
+         <h1 class="thank-you-text">Thank You for Signing Up</h1>
+         <p class ="info-text"><b>Study:</b> Example Study 1</p>
+         <p class ="info-text"><b>When:</b> 2:30pm Thursday May 16</p>
+         <p class ="info-text"><b>Where:</b> Swift Hall 109</p>
+         <p class ="info-text">Please message the researcher with any additional questions you may have</p>
+      </div>
+      <div class="dashboard-buttons">
+        <a href="dashboard.html" style ="text-decoration: none;">
+          <p class="button-text">Return to Dashboard</p>
+        </a> 
+      </div>
+     <div class="bottom-bar" class="menu-icons" >
+      <div class="bottom-bar-wrapper" >
+         <img src="images/baseline-today-24px.svg">
+        <img src="images/baseline-home-24px.svg" >
+        <img src="images/baseline-chat-24px.svg">
+        <img src="images/round-person-24px.svg">
+</div>
+     </div>
+      </div>
+
+   </div>
+</body>
+
+<!-- Note: We put this at the end of the page so that the rest of the HTML loads first -->
+<script>
+   buildAlbumList();  // defined in albums.js
+</script>
+</html>

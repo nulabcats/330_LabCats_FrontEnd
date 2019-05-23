@@ -14,29 +14,30 @@ body {
 	margin: 105px 23px;
 }
 
-/* Head-bar spans entire width of screen (300px) and 45px height as instructed.
-Background is black. Text color is white with black shadow and is centered.	*/
 .head-bar {
 	width: 300px;
 	height: 45px;
-	background-color: black;
+	background: #a4508b;
+	background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
 	text-align: center;
-	font-size:15px;
+	font-size: 15px;
 	color : white;
 	margin: 15 0 0 0;
 	padding-top: 0px;
 }
-/* Back button is position on top left corner of head-bar. */
-.back-button {
-	background-color: black;
-	border-color: white;
-	border-radius: 4px;
-	text-align: left;
-	color: white;
-	font-size: 20px;
-	margin: -55px 250px 0 0;
+
+.head-bar h1 p{
+	text-align: center;
+	padding: 5px;
 
 }
+
+#back-button {
+	padding: 5px;
+	float: left;
+	color: white;
+}
+
 
 /*
 	Albums

@@ -13,29 +13,31 @@ body {
 }
 
 .head-bar {
-	margin-left:1px;
-	margin-right:1px;
-	color: white;
-	width: 298px;
-    height:69px;
-    background:background-color: #a4508b;
-background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+	width: 300px;
+	height: 45px;
+	background: #a4508b;
+	background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+	text-align: center;
+	font-size: 15px;
+	color : white;
+	margin: 15 0 0 0;
+	padding-top: 0px;
 }
 
 .head-bar h1 p{
 	text-align: center;
-	padding: 15px;
+	padding: 5px;
 
 }
 
 #back-button {
-	padding: 15px;
+	padding: 5px;
 	float: left;
 	color: white;
 }
 
 #filter {
-	padding: 15px;
+	padding: 5px;
 	float: right;
 }
 .tab {
@@ -55,15 +57,15 @@ background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
 #time{
 	font-size: 10px;
 	float: right;
-	margin-right: 2px;
+	margin-right: 1px;
 }
 #name {
-	font-size: 30px;
+	font-size: 24px;
 	margin-top: 10px;
 }
 #comp {
 	float: right;
-	margin-top: -40px;
+	margin-top: -20px;
 	margin-right: 2px;
 }
 

@@ -1,0 +1,118 @@
+/* Global classes */
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+.head-bar {
+	width: 300px;
+	height: 45px;
+	background:background-color: #a4508b;
+	background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+	text-align: center;
+	font-size:15px;
+	color : white;
+	margin: 15 0 0 0;
+	padding-top: 0px;
+}
+
+.head-bar h1 p{
+	/*text-align: center;*/
+	/*padding: 15px;*/
+	text-indent: 20px;
+
+}
+
+#back-button {
+	padding: 15px;
+	float: left;
+	color: white;
+}
+
+#filter {
+	margin-top: 7px;
+	margin-right: 5px;
+	/*padding: 15px;*/
+	float: right;
+	/*text-indent: -10px;*/
+}
+.tab {
+	position: relative;
+	font-weight: bold;
+	border-style: solid;
+  	border-width: 1px;
+	margin-left:1px;
+	margin-right:1px;
+	width: 296px;
+    height:69px;
+}
+
+#study-list a{
+	color: black;
+} 
+#time{
+	font-size: 10px;
+	float: right;
+	margin-right: 2px;
+}
+#name {
+	margin-top: 5px;
+	font-size: 30px;
+	margin-top: 15px;
+}
+#comp {
+	float: right;
+	margin-top: -40px;
+	margin-right: 2px;
+}
+
+.menu-bar {
+	text-align: center;
+	margin-top:80px;
+}
+
+.menu-icon {
+	text-align: center;
+	margin: 15px;
+	width:40px;
+	height:30px;
+}
+
+#menu {
+	padding: 15px;
+	font-size: 2em;
+	margin-top: -20px;
+	text-indent: 10px;
+}
+
+#message {
+	font-size: 2em;
+	margin-top: 5px;
+	text-indent: 60px;
+}
+
+#user {
+	text-indent: 70px;
+	font-size: 2em;
+}
+
+}
+.albums-album-wrapper {
+}
+
+.albums-album-art {
+}
+
+.albums-album-name {
+}
+
+.albums-artist-name {
+}

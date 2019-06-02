@@ -1,0 +1,41 @@
+<html>
+<header>
+   <title>Album Select</title>
+   <link rel="stylesheet" type="text/css" href="dashboard.css"/>
+   <script src="albums.js"></script>
+</header>
+
+<body>
+   <div id="screen">
+      <div class="head-bar">
+         <h1>LabCats</h1>
+      </div>
+
+      <div class="dashboard-buttons"><a href="study_list.html" style ="text-decoration: none;"><p class="dashboard-text">My STUDIES</p></a></div>
+      <div class="dashboard-buttons"><p class="dashboard-text">POST STUDIES</p></div>
+      <div class="dashboard-buttons"><p class="dashboard-text">CALENDAR</p></div>
+      <a href="usr-msg-list.html" style="text-decoration: none;"><div class="dashboard-buttons"><p class="dashboard-text">MESSAGE</p></div></a>
+      
+      <div class="dashboard-buttons"><p class="my-account">MY ACCOUNT</p></div>
+      <!-- This DIV is the parent for all of the albums in the list -->
+<!--      <div class="bottom-bar" class="menu-icons" >
+      <div class="bottom-bar-wrapper" >
+         <img src="images/baseline-today-24px.svg">
+        <img src="images/baseline-home-24px.svg" >
+        <img src="images/baseline-chat-24px.svg">
+        <img src="images/round-person-24px.svg">
+</div>
+     </div> -->
+      </div>
+
+   </div>
+</body>
+
+<!-- Note: We put this at the end of the page so that the rest of the HTML loads first -->
+<script>
+   buildAlbumList();  // defined in albums.js
+</script>
+</html>
+<!-- 
+* bg iphone img is 363x762px
+* iphone 'screen' is apprx 300x530 -->

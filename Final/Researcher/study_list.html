@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+</body>
+</html>
+<html>
+<header>
+   <title>Album Select</title>
+   <link rel="stylesheet" type="text/css" href="study_list.css"/>
+   <script src="study-list.js"></script>
+</header>
+
+<body>
+   <div id="screen">
+
+<!--       <div class="head-bar">
+         <h1> 
+          <a href="dashboard.html" style="text-decoration: none">
+            <i id="back-button" class="fa fa-arrow-left"></i> 
+          </a>
+            <i id="filter" class="fa fa-filter"></i>
+            <p>Studies</p>
+           
+         </h1>
+      </div> -->
+
+      <div class="head-bar">
+                    <h1>My Studies</h1>
+                    <a href="dashboard.html">
+                      <button class="back-button"> ← </button>
+                    </a>
+                    <i id="filter" class="fa fa-filter"></i>
+                    
+              </div>
+
+
+      <div id="study-list">
+        <a href="study-details.html" style="text-decoration: none" >
+          <div class="tab">
+            <p id="name">Study A <span id="time">Location A</span></p>
+            <p id="comp">$20</p>
+         </div>
+        </a>
+
+         <div class="tab">
+            <p id="name">Study B<span id="time">Location B</span></p>
+            <p id="comp">$16</p>
+         </div>
+         <div class="tab">
+            <p id="name">Study C<span id="time">Location C</span></p>
+            <p id="comp">$20</p>
+         </div>
+         <div class="tab">
+            <p id="name">Study D<span id="time">Location D</span></p>
+            <p id="comp">$12</p>
+         </div>
+         <div class="tab">
+            <p id="name">Study E<span id="time">Location E</span></p>
+            <p id="comp">$15</p>
+         </div>
+      </div>
+
+      <div class="menu-bar">
+        <a href="dashboard.html"><img src="images/home.png" class="menu-icon" width="20" height="20"></a>
+                
+                <img src="images/calendar.png" class="menu-icon">
+                <img class= "notify2" src="images/warning.png" height="15" width="15">
+                <a href="usr-msg-list.html"><img src="images/message.png" class="menu-icon"></a>
+                
+                <img src="images/user.png" class="menu-icon">
+              </div>
+
+   </div>
+</body>
+
+<!-- Note: We put this at the end of the page so that the rest of the HTML loads first -->
+<script>
+   buildAlbumList();  // defined in albums.js
+</script>
+</html>
+<!-- 
+* bg iphone img is 363x762px
+* iphone 'screen' is apprx 300x530 -->
